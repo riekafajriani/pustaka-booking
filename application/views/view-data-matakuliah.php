@@ -1,30 +1,29 @@
 <html>
 
 <head>
-    <tittle> TAMPIL DATA MATAKULIAH </tittle>
+    <title> TAMPIL DATA MATAKULIAH </title>
 </head>
 
 <body>
     <center>
-        <table>
+        <table border=0>
             <tr>
                 <th colspan="3">
                     Tampil Data Matakuliah
-</th>
-</tr>
-<tr>
-    <td colspan="3">
-        <hr>
-</td>
-</tr>
-<tr>
-    <td>
-        <th> Kode MTK </th>
-        <th>:</th>
-        <td>
-            <?= $kode; ?>
-</td>
-</tr>
+                </th>
+            </tr>
+            
+            <tr>
+                <td colspan="3">
+                    <hr>
+                </td>
+            </tr>
+
+            <tr>
+                <td> Kode MTK </td>
+                <td>:</td>
+                <td><?= $kode; ?></td>
+            </tr>
 <tr>
     <td> Nama MTK </td>
     <td>:</td>
